@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:q="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:p="http://primefaces.org/ui"
+	template="/WEB-INF/templates/default.xhtml">
+
+	<ui:define name="contenido">
+		<h:form id="form" prependId="false" style="display: flex; justify-content:center; align-items:center; flex-direction:column;">
+			<h1>Registro Estudiantes</h1>
+			<h:panelGrid columns="2" id="contenedor">
+				<p:outputLabel value="#{msj['usuario.codigoEstudiante']}" for="cod" />
+				<p:inputText value="#{estudiante.codigo}" id="cod" required="true"/>
+				
+				<p:outputLabel value="#{msj['usuario.cedulaEstudiante']}" for="ced" />
+				<p:inputText value="#{estudiante.cedula}" id="ced" required="true"/>
+			</h:panelGrid>
+			<p:commandButton update="form" action="#{estudiante.buscar()}"
+			value="#{msj['botones.buscar']}" id="btnBuscar" />
+			
+			<p:commandButton update="form" action="#{estudiante.crear()}"
+			value="#{msj['botones.crear']}" id="btnCrear" />
+		</h:form>
+	</ui:define>
+</ui:composition>

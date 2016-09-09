@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+org.jboss.tools.openshift.ApplicationId=57abdf0b0c1e66a49d0000f5
+org.jboss.tools.openshift.ApplicationName=tareaevaluaciondocente
+org.jboss.tools.openshift.Connection=https\://lauragomez.lg247%40gmail.com@openshift.redhat.com
+org.jboss.tools.openshift.Domain=lauragomez
+org.jboss.tools.openshift.RemoteName=openshift

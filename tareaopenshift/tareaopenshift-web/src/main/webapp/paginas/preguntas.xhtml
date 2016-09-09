@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:q="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:p="http://primefaces.org/ui"
+	template="/WEB-INF/templates/default.xhtml">
+
+	<ui:define name="contenido">
+		<h:form id="form" prependId="false" style="display: flex; justify-content:center; align-items:center; flex-direction:column;">
+			<h1>Registro Preguntas</h1>
+			<h:panelGrid columns="4" id="contenedor">
+			<p:inputText id="idPreg" rendered="false"/>
+				<p:outputLabel value="#{msj['usuario.pregunta']}" for="pregunta" />
+				<p:inputTextarea value="#{preguntasWeb.pregunta}" id="pregunta"
+					p:placeholder="#{msj['usuario.tipoPregunta']}" required="true" />
+					<br />
+					<p:messages for="pregunta" style="color:red" id="facesMessage"/>
+				<p:outputLabel value="#{msj['usuario.valor']}" for="peso" />
+				<p:inputText value="#{preguntasWeb.peso}" id="peso" required="true" validator="validadorPorcentaje"/>
+				<h1>%</h1>
+				<p:messages for="peso" style="color:red"/>
+			</h:panelGrid>
+			<p:commandButton update="form" action="#{preguntasWeb.crear()}"
+			value="#{msj['botones.crear']}" id="btnCrear" />
+		</h:form>
+	</ui:define>
+</ui:composition>

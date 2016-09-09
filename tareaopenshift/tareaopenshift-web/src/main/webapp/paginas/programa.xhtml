@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:q="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:p="http://primefaces.org/ui"
+	template="/WEB-INF/templates/default.xhtml">
+
+	<ui:define name="contenido">
+		<h:form id="form" prependId="false" style="display: flex; justify-content:center; align-items:center; flex-direction:column;">
+			<h1>Registro Programas</h1>
+			<h:panelGrid columns="3" id="contenedor">
+			
+			<p:outputLabel value="#{msj['usuario.idPrograma']}" for="idPrograma" />
+				<p:inputText value="#{programaWeb.idPrograma}" id="idPrograma" required="true" />
+				
+			<br />
+				<p:outputLabel value="#{msj['usuario.facultad']}" for="comboFacultad" />
+				<p:selectOneMenu converter="#{facultadConverter}" id="comboFacultad"
+						value="#{programaWeb.facultadSeleccionada}">
+						<f:selectItems value="#{programaWeb.listaFacultades}" var="fac"
+							itemValue="#{fac}" itemLabel="#{fac.nombre}" />
+					</p:selectOneMenu>
+					<p:messages for="comboFacultad" style="color:red" id="facesMessage"/>
+				<p:outputLabel value="#{msj['usuario.nombre']}" for="nombre" />
+				<p:inputText value="#{programaWeb.nombre}" id="nombre" required="true" />
+				
+				<p:messages for="nombre" style="color:red"/>
+			</h:panelGrid>
+			<p:commandButton update="form" action="#{programaWeb.crear()}"
+			value="#{msj['botones.crear']}" id="btnCrear" />
+		</h:form>
+	</ui:define>
+</ui:composition>
