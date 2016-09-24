@@ -9,7 +9,9 @@ import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.IdClass;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinColumns;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
@@ -18,43 +20,40 @@ import javax.persistence.Table;
  *
  */
 @Entity
+@IdClass(value=RespPregPK.class)
 @Table(name = "RespuestasPreg")
 public class RespPreg implements Serializable {
 
 	@Id
-	@Column(name = "idRespuestasPreg")
-	private int idRespPreg;
-
 	@ManyToOne
 	@JoinColumn(name = "idRespuesta")
 	private Respuesta idRespuesta;
 
-	@ManyToOne
-	@JoinColumn(name = "idPregunta")
-	private Pregunta idPregunta;
-
-	@ManyToOne
-	@JoinColumn(name = "idEvaluacion")
-	private Evaluacion idEvaluacion;
 	
 	@Column(name = "calificacion")
 	private double calificacion;
+	
+	@Id
+	@ManyToOne
+	@JoinColumns({@JoinColumn(name="idPregunta", referencedColumnName="idPregunta"),
+		@JoinColumn(name="idEvaluacion", referencedColumnName="idEvaluacion")})
+	private PregEval pregEval;
 
 	// Constructor vacio
 	public RespPreg() {
 		super();
 	}
+	
+	
 
-	// Constructor
-	public RespPreg(Respuesta idRespuesta, Pregunta idPregunta, Evaluacion idEvaluacion, double calificacion) {
+	public RespPreg(Respuesta idRespuesta, double calificacion, PregEval pregEval) {
 		super();
 		this.idRespuesta = idRespuesta;
-		this.idPregunta = idPregunta;
-		this.idEvaluacion = idEvaluacion;
 		this.calificacion = calificacion;
+		this.pregEval = pregEval;
 	}
 
-	// Accesores y modificadores
+
 
 	public Respuesta getIdRespuesta() {
 		return idRespuesta;
@@ -64,22 +63,6 @@ public class RespPreg implements Serializable {
 		this.idRespuesta = idRespuesta;
 	}
 
-	public Pregunta getIdPregunta() {
-		return idPregunta;
-	}
-
-	public void setIdPregunta(Pregunta idPregunta) {
-		this.idPregunta = idPregunta;
-	}
-
-	public Evaluacion getIdEvaluacion() {
-		return idEvaluacion;
-	}
-
-	public void setIdEvaluacion(Evaluacion idEvaluacion) {
-		this.idEvaluacion = idEvaluacion;
-	}
-
 	public double getCalificacion() {
 		return calificacion;
 	}
@@ -87,4 +70,14 @@ public class RespPreg implements Serializable {
 	public void setCalificacion(double calificacion) {
 		this.calificacion = calificacion;
 	}
+
+	public PregEval getPregEval() {
+		return pregEval;
+	}
+
+	public void setPregEval(PregEval pregEval) {
+		this.pregEval = pregEval;
+	}
+
+
 }

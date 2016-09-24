@@ -35,7 +35,7 @@ public class PreguntaEJB extends EJBGenerico<Pregunta> implements PreguntaRemote
 	}
 
 	@Override
-	public List<Pregunta> listarPrograma(){
+	public List<Pregunta> listarPreguntas(){
 		return dao.ejecutarNamedQuery(Pregunta.LISTA_PREGUNTAS);
 	}
 }

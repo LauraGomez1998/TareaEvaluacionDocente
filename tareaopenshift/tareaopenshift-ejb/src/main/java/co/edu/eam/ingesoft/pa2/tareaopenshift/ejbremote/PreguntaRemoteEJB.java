@@ -7,5 +7,5 @@ import co.edu.eam.ingesoft.pa2.tareaopenshift.persistencia.entidades.Pregunta;
 
 public interface PreguntaRemoteEJB extends InterfaceEJBGenerica<Pregunta> {
 
-	public List<Pregunta> listarPrograma();
+	public List<Pregunta> listarPreguntas();
 }

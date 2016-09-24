@@ -1,21 +1,21 @@
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Docente.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Estudiante.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\TipoAsignatura.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\InitResponse.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ServiciosEducativosService.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ConsultarCursosEstudianteResponse.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Asignatura.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Programa.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\TipoContratacionEnum.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\DetalleCursoEstudiante.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Curso.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ConsultarCursosEstudiante.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ObjectFactory.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ServiciosAcademicos.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ConsultaEstudiante.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\package-info.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Facultad.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\GrupoEnum.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ConsultaEstudianteResponse.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Init.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Persona.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Programa.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ConsultaEstudianteResponse.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Estudiante.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ConsultarCursosEstudiante.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ServiciosAcademicos.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Curso.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\DetalleCursoEstudiante.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\package-info.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Asignatura.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\InitResponse.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\TipoAsignatura.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Facultad.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\GrupoEnum.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ObjectFactory.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ConsultarCursosEstudianteResponse.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Init.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ServiciosEducativosService.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Persona.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\TipoContratacionEnum.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\ConsultaEstudiante.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-cliente\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\entidades\Docente.java

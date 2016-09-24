@@ -1,20 +1,32 @@
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\UsuarioRemotoEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\PreguntaRemoteEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\RolEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\FacultadEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\AsignaturaRemoteEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\WSDLEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\model\Member.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\FacultadRemoteEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\service\MemberRegistration.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\implementacion\EJBGenerico.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\data\MemberListProducer.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\util\Resources.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\AsignaturaEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\ProgramaRemoteEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\PreguntaEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\interfaces\InterfaceEJBGenerica.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\UsuarioEJB.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\data\MemberRepository.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\excepciones\ExcepcionNegocio.java
-E:\laura\Documentos\PROGRAMACIÓN AVANZADA II - 2016\WORKSPACE EVA DOCENTE\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\ProgramaEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\RespPregEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\RespPregRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\PreguntaRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\RespuestaRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\implementacion\EJBGenerico.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\GrupoEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\PregEvalRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\service\MemberRegistration.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\model\Member.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\UsuarioRemotoEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\excepciones\ExcepcionNegocio.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\GrupoRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\DocenteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\EvaluacionRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\data\MemberRepository.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\interfaces\InterfaceEJBGenerica.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\EvaluacionEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\FacultadRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\WSDLEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\FacultadEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\PregEvalEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\AsignaturaRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\PreguntaEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\RolEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\data\MemberListProducer.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\ProgramaEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\RespuestaEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\util\Resources.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\DocenteRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\ejbremote\ProgramaRemoteEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\UsuarioEJB.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-ejb\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\bos\AsignaturaEJB.java

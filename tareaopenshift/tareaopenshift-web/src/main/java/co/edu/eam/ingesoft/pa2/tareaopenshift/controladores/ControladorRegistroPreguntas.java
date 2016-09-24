@@ -40,7 +40,7 @@ public class ControladorRegistroPreguntas implements Serializable {
 	 */
 	public void crear() {
 		try {
-			idPregrunta = preguntaEJB.listarPrograma().size();
+			idPregrunta = preguntaEJB.listarPreguntas().size();
 			Pregunta p = new Pregunta(idPregrunta, pregunta, peso);
 			preguntaEJB.crear(p);
 			FacesMessage message = new FacesMessage(FacesMessage.SEVERITY_INFO,
