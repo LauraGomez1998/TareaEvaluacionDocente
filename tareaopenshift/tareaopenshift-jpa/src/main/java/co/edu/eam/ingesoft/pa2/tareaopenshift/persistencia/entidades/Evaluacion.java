@@ -10,10 +10,14 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+
+import co.edu.eam.ingesoft.pa2.tareaopenshift.persistencia.enumeraciones.EstadoEvaluacion;
 
 /**
  * @author Alejandro
@@ -31,8 +35,9 @@ public class Evaluacion implements Serializable {
 	@Temporal(TemporalType.DATE)
 	private Date fechaCreacion;
 	
+	@Enumerated(EnumType.STRING)
 	@Column(name = "estado")
-	private String estado;
+	private EstadoEvaluacion estado;
 	
 	@Column(name = "anio")
 	@Temporal(TemporalType.DATE)
@@ -47,7 +52,7 @@ public class Evaluacion implements Serializable {
 	}
 
 	// Constructor
-	public Evaluacion(int idEvaluacion, Date fechaCreacion, String estado, Date anio, int periodo) {
+	public Evaluacion(int idEvaluacion, Date fechaCreacion, EstadoEvaluacion estado, Date anio, int periodo) {
 		super();
 		this.idEvaluacion = idEvaluacion;
 		this.fechaCreacion = fechaCreacion;
@@ -73,11 +78,11 @@ public class Evaluacion implements Serializable {
 		this.fechaCreacion = fechaCreacion;
 	}
 
-	public String getEstado() {
+	public EstadoEvaluacion getEstado() {
 		return estado;
 	}
 
-	public void setEstado(String estado) {
+	public void setEstado(EstadoEvaluacion estado) {
 		this.estado = estado;
 	}
 

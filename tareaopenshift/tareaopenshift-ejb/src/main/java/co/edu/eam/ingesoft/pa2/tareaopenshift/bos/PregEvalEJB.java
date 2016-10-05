@@ -20,10 +20,8 @@ public class PregEvalEJB extends EJBGenerico<PregEval> implements PregEvalRemote
 		return PregEval.class;
 	}
 	
-	public void crear(PregEval p) throws ExcepcionNegocio{
-		
+	public void crear(PregEval p){
 			dao.crear(p);
-		
 	}
 	
 

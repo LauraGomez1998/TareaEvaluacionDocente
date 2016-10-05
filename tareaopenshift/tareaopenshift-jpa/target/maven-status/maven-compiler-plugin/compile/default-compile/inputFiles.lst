@@ -1,5 +1,6 @@
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\seguridad\Acceso.java
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\entidades\Programa.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\enumeraciones\EstadoEvaluacion.java
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\entidades\Decano.java
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\seguridad\AccesoRolPK.java
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\entidades\Coordinador.java
@@ -22,5 +23,6 @@ C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tare
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\seguridad\UsuarioRol.java
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\entidades\Usuario.java
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\entidades\SuperAdmin.java
+C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\DTO\PreguntaDTO.java
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\entidades\Evaluacion.java
 C:\Users\Laura\git\EjemploCloneGIT\EvaluacionDocente\TareaEvaluacionDocente\tareaopenshift\tareaopenshift-jpa\src\main\java\co\edu\eam\ingesoft\pa2\tareaopenshift\persistencia\entidades\PregEval.java

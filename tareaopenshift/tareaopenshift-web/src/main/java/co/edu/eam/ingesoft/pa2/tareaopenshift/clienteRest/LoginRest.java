@@ -30,7 +30,6 @@ public class LoginRest {
 	public RespuestaDTO login(@QueryParam(value = "ced") String ced, @QueryParam(value = "cod") String cod) {
 		if (wsdlEJB.buscar(cod, ced)) {
 			String token = UUID.randomUUID().toString();
-			System.out.println(token + "--------------------------------------------------------------");
 			tokens.put(token, ced);
 			return new RespuestaDTO(token);
 		} else {

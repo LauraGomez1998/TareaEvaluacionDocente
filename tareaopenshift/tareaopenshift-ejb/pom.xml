@@ -109,11 +109,11 @@
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
+		<!--  <dependency>
 			<groupId>com.github.caferrerb</groupId>
-			<artifactId>testdata</artifactId>
+			<artifactId>testdataJEE</artifactId>
 			<version>1.1.2-SNAPSHOT</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.jboss.shrinkwrap.resolver</groupId>
 			<artifactId>shrinkwrap-resolver-impl-maven</artifactId>
@@ -135,60 +135,60 @@
 	</dependencies>
 
 	<profiles>
-        <profile>
-            <!-- The default profile skips all tests, though you can tune it to run 
-                just unit tests based on a custom pattern -->
-            <!-- Seperate profiles are provided for running all tests, including Arquillian 
-                tests that execute in the specified container -->
-            <id>default</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>${version.surefire.plugin}</version>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
+		<profile>
+			<!-- The default profile skips all tests, though you can tune it to run 
+				just unit tests based on a custom pattern -->
+			<!-- Seperate profiles are provided for running all tests, including Arquillian 
+				tests that execute in the specified container -->
+			<id>default</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>${version.surefire.plugin}</version>
+						<configuration>
+							<skip>true</skip>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
 
-        <profile>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <!-- An optional Arquillian testing profile that executes tests in your 
-                WildFly instance -->
-            <!-- This profile will start a new WildFly instance, and execute the test, 
-                shutting it down when done -->
-            <!-- Run with: mvn clean test -Parq-wildfly-managed -->
-            <id>arq-wildfly-managed</id>
-            <dependencies>
-                <dependency>
-                    <groupId>org.wildfly</groupId>
-                    <artifactId>wildfly-arquillian-container-managed</artifactId>
-                    <scope>test</scope>
-                </dependency>
-            </dependencies>
-        </profile>
+		<profile>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<!-- An optional Arquillian testing profile that executes tests in your 
+				WildFly instance -->
+			<!-- This profile will start a new WildFly instance, and execute the test, 
+				shutting it down when done -->
+			<!-- Run with: mvn clean test -Parq-wildfly-managed -->
+			<id>arq-wildfly-managed</id>
+			<dependencies>
+				<dependency>
+					<groupId>org.wildfly</groupId>
+					<artifactId>wildfly-arquillian-container-managed</artifactId>
+					<scope>test</scope>
+				</dependency>
+			</dependencies>
+		</profile>
 
-        <profile>
-            <!-- An optional Arquillian testing profile that executes tests in a remote 
-                WildFly instance -->
-            <!-- Run with: mvn clean test -Parq-wildfly-remote -->
-            <id>arq-wildfly-remote</id>
-            <dependencies>
-                <dependency>
-                    <groupId>org.wildfly</groupId>
-                    <artifactId>wildfly-arquillian-container-remote</artifactId>
-                    <scope>test</scope>
-                </dependency>
-            </dependencies>
-        </profile>
+		<profile>
+			<!-- An optional Arquillian testing profile that executes tests in a remote 
+				WildFly instance -->
+			<!-- Run with: mvn clean test -Parq-wildfly-remote -->
+			<id>arq-wildfly-remote</id>
+			<dependencies>
+				<dependency>
+					<groupId>org.wildfly</groupId>
+					<artifactId>wildfly-arquillian-container-remote</artifactId>
+					<scope>test</scope>
+				</dependency>
+			</dependencies>
+		</profile>
 
-    </profiles>
+	</profiles>
 </project>

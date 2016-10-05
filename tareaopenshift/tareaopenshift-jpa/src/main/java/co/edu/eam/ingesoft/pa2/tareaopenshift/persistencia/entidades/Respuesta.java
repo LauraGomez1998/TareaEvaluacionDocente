@@ -9,6 +9,8 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -22,6 +24,7 @@ import java.io.Serializable;
 @Table(name = "Respuestas")
 public class Respuesta implements Serializable {
 	
+	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	@Id
 	@Column(name = "idRespuestas")
 	private int idRespuestas;
@@ -43,9 +46,8 @@ public class Respuesta implements Serializable {
 	}
 
 	// Constructor
-	public Respuesta(int idRespuestas, Grupo idGrupo, Date fecha_Hora, String comentario) {
+	public Respuesta(Grupo idGrupo, Date fecha_Hora, String comentario) {
 		super();
-		this.idRespuestas = idRespuestas;
 		this.idGrupo = idGrupo;
 		this.fecha_Hora = fecha_Hora;
 		this.comentario = comentario;
@@ -55,11 +57,9 @@ public class Respuesta implements Serializable {
 	public int getIdRespuestas() {
 		return idRespuestas;
 	}
-
 	public void setIdRespuestas(int idRespuestas) {
 		this.idRespuestas = idRespuestas;
 	}
-
 	public Grupo getIdGrupo() {
 		return idGrupo;
 	}

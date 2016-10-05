@@ -4,11 +4,15 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+
+import co.edu.eam.ingesoft.pa2.tareaopenshift.persistencia.enumeraciones.EstadoEvaluacion;
 
 @Entity
 @IdClass(GrupoEstudianteEvalPK.class)
@@ -24,14 +28,15 @@ public class GrupoEstudianteEval implements Serializable {
 	@Column(name="idEstudiante")
 	private String idEstudiante;
 
+	@Enumerated(EnumType.STRING)
 	@Column(name="estadoEvaluacion")
-	private String estadoEvaluacion;
+	private EstadoEvaluacion estadoEvaluacion;
 	
 	public GrupoEstudianteEval() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public GrupoEstudianteEval(Grupo idGrupo, String idEstudiante, String estadoEvaluacion) {
+	public GrupoEstudianteEval(Grupo idGrupo, String idEstudiante, EstadoEvaluacion estadoEvaluacion) {
 		super();
 		this.idGrupo = idGrupo;
 		this.idEstudiante = idEstudiante;
@@ -54,11 +59,11 @@ public class GrupoEstudianteEval implements Serializable {
 		this.idEstudiante = idEstudiante;
 	}
 
-	public String getEstadoEvaluacion() {
+	public EstadoEvaluacion getEstadoEvaluacion() {
 		return estadoEvaluacion;
 	}
 
-	public void setEstadoEvaluacion(String estadoEvaluacion) {
+	public void setEstadoEvaluacion(EstadoEvaluacion estadoEvaluacion) {
 		this.estadoEvaluacion = estadoEvaluacion;
 	}
 	
